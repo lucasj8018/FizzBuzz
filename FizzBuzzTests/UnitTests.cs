@@ -72,14 +72,4 @@ public class UnitTests
         Assert.Equal(expected, actual);
     }
 
-    // write a test that will fail
-    [Fact]
-    public void Given1Output2()
-    {
-        FizzBuzzLogic fb = new FizzBuzzLogic();
-        string? actual = fb.GetOutput(1);
-        string? expected = "2 ";
-        Assert.Equal(expected, actual);
-    }
-
 }
